@@ -1,0 +1,1460 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Nguyen Thi A",
+      "email": "nguyenthia@gmail.com",
+      "password": "nguyenthia",
+      "token": "f3c9d0a312ab4f1a9b5d1c0a1ed3e2a1"
+    },
+    {
+      "id": 2,
+      "fullName": "Tran Van B",
+      "email": "tranvanb@gmail.com",
+      "password": "tranvanb",
+      "token": "b2d1f5c42f564fdc8ac28840e1fcf6d9"
+    },
+    {
+      "id": 3,
+      "fullName": "Le Thi C",
+      "email": "lethic@gmail.com",
+      "password": "lethic",
+      "token": "3c119fd21a4e4e3abbb14424a0baffaa"
+    },
+    {
+      "id": 4,
+      "fullName": "Pham Van D",
+      "email": "phamvand@gmail.com",
+      "password": "phamvand",
+      "token": "8a9a4b0c56c643de9e6b42c392a49e3e"
+    },
+    {
+      "id": 5,
+      "fullName": "Hoang Thi E",
+      "email": "hoangthie@gmail.com",
+      "password": "hoangthie",
+      "token": "52be194f4b754e199104f1732a92834e"
+    },
+    {
+      "id": 6,
+      "fullName": "Dang Van F",
+      "email": "dangvanf@gmail.com",
+      "password": "dangvanf",
+      "token": "a9e80c3a3b104d23a14b33b37bfc9f3a"
+    },
+    {
+      "id": 7,
+      "fullName": "Do Thi G",
+      "email": "dothig@gmail.com",
+      "password": "dothig",
+      "token": "e7aa6f999f614b7195a813b87be1d2cc"
+    },
+    {
+      "id": 8,
+      "fullName": "Bui Van H",
+      "email": "buivanh@gmail.com",
+      "password": "buivanh",
+      "token": "cf7e8d459bc24fd4a04167cf65ce2f6c"
+    },
+    {
+      "id": 9,
+      "fullName": "Vo Thi K",
+      "email": "vothik@gmail.com",
+      "password": "vothik",
+      "token": "da89b3a948244e9da9b1c2b64fd472ea"
+    },
+    {
+      "id": 10,
+      "fullName": "Phan Van L",
+      "email": "phanvanl@gmail.com",
+      "password": "phanvanl",
+      "token": "9cfb36f81a8f453380df52f9cd4fa41c"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "HTML5"
+    },
+    {
+      "id": 2,
+      "name": "CSS3"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript"
+    },
+    {
+      "id": 4,
+      "name": "ReactJS"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "topicId": 1,
+      "questions": "HTML là viết tắt của...?",
+      "answers": [
+        "HyperText Markup Language",
+        "HyperText Machine Language",
+        "HighText Markup Language",
+        "None of the above"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 2,
+      "topicId": 1,
+      "questions": "Thẻ <title> trong HTML5 được đặt ở đâu?",
+      "answers": [
+        "Trong body",
+        "Trong head",
+        "Trong footer",
+        "Trong header"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 3,
+      "topicId": 1,
+      "questions": "Thẻ nào dùng để tạo liên kết trong HTML5?",
+      "answers": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<button>"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 4,
+      "topicId": 1,
+      "questions": "Thẻ <meta> dùng để làm gì trong HTML5?",
+      "answers": [
+        "Định nghĩa kiểu chữ",
+        "Định nghĩa thông tin metadata",
+        "Tạo menu",
+        "Chứa nội dung chính"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "topicId": 1,
+      "questions": "Thẻ nào dùng để hiển thị hình ảnh trong HTML5?",
+      "answers": [
+        "<img>",
+        "<picture>",
+        "<image>",
+        "<src>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 6,
+      "topicId": 1,
+      "questions": "HTML5 hỗ trợ thẻ video không?",
+      "answers": [
+        "Có",
+        "Không",
+        "Chỉ hỗ trợ qua plugin",
+        "Tùy trình duyệt"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "topicId": 1,
+      "questions": "Thẻ nào dùng để tạo bảng trong HTML5?",
+      "answers": [
+        "<table>",
+        "<grid>",
+        "<list>",
+        "<section>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 8,
+      "topicId": 1,
+      "questions": "HTML5 cho phép tạo các form control mới nào?",
+      "answers": [
+        "<input type='range'>",
+        "<input type='color'>",
+        "<input type='date'>",
+        "Tất cả"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 9,
+      "topicId": 1,
+      "questions": "Câu lệnh dùng để nhận dạng bộ mã ký tự trong HTML5 là gì?",
+      "answers": [
+        "<meta charset>",
+        "<meta encoding>",
+        "<meta type>",
+        "<meta lang>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "topicId": 1,
+      "questions": "Thẻ nào là thẻ block-level trong HTML5?",
+      "answers": [
+        "<div>",
+        "<span>",
+        "<a>",
+        "<img>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 11,
+      "topicId": 1,
+      "questions": "Thẻ <canvas> trong HTML5 dùng để làm gì?",
+      "answers": [
+        "Vẽ đồ họa",
+        "Hiển thị văn bản",
+        "Làm bảng",
+        "Hiển thị video"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "topicId": 1,
+      "questions": "HTML5 hỗ trợ thẻ nào mới?",
+      "answers": [
+        "<footer>",
+        "<header>",
+        "<main>",
+        "Tất cả các thẻ trên"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 13,
+      "topicId": 1,
+      "questions": "Thẻ <article> trong HTML5 dùng để làm gì?",
+      "answers": [
+        "Định nghĩa một phần nội dung độc lập",
+        "Chứa meta",
+        "Hiển thị video",
+        "Để tạo danh sách"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 14,
+      "topicId": 1,
+      "questions": "Thẻ nào không phải là phần tử HTML5 mới?",
+      "answers": [
+        "<nav>",
+        "<footer>",
+        "<header>",
+        "<center>"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 15,
+      "topicId": 1,
+      "questions": "Thẻ <progress> trong HTML5 dùng để làm gì?",
+      "answers": [
+        "Hiển thị tiến trình",
+        "Hiển thị hình ảnh",
+        "Chứa nội dung",
+        "Hiển thị video"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 16,
+      "topicId": 1,
+      "questions": "Thẻ <aside> trong HTML5 dùng để làm gì?",
+      "answers": [
+        "Hiển thị phần nội dung phụ",
+        "Tạo bảng",
+        "Hiển thị hình ảnh",
+        "Tạo form"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "topicId": 1,
+      "questions": "Thẻ <details> trong HTML5 dùng để làm gì?",
+      "answers": [
+        "Hiển thị chi tiết có thể mở rộng",
+        "Hiển thị bảng",
+        "Hiển thị danh sách",
+        "Chứa nội dung động"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "topicId": 1,
+      "questions": "Thẻ nào giúp tạo danh sách không thứ tự trong HTML5?",
+      "answers": [
+        "<ul>",
+        "<ol>",
+        "<dl>",
+        "<list>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 19,
+      "topicId": 1,
+      "questions": "Thẻ nào không phải thẻ HTML5?",
+      "answers": [
+        "<base>",
+        "<article>",
+        "<footer>",
+        "<i>"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 20,
+      "topicId": 1,
+      "questions": "Thẻ <section> trong HTML5 dùng để làm gì?",
+      "answers": [
+        "Chứa một nhóm các nội dung có liên quan",
+        "Định nghĩa một kiểu chữ",
+        "Tạo bảng",
+        "Hiển thị hình ảnh"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 21,
+      "topicId": 1,
+      "questions": "Thẻ <mark> trong HTML5 dùng để làm gì?",
+      "answers": [
+        "Đánh dấu văn bản",
+        "Tạo liên kết",
+        "Hiển thị video",
+        "Định nghĩa tiêu đề"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 22,
+      "topicId": 1,
+      "questions": "HTML5 có bao nhiêu loại input mới?",
+      "answers": [
+        "6",
+        "10",
+        "12",
+        "14"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 23,
+      "topicId": 1,
+      "questions": "HTML5 cho phép tạo các thuộc tính mới cho thẻ nào?",
+      "answers": [
+        "<input>",
+        "<select>",
+        "<textarea>",
+        "Tất cả các thẻ trên"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 24,
+      "topicId": 1,
+      "questions": "Thẻ nào không phải là phần tử mới trong HTML5?",
+      "answers": [
+        "<article>",
+        "<header>",
+        "<section>",
+        "<center>"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 25,
+      "topicId": 1,
+      "questions": "Thẻ <audio> trong HTML5 dùng để làm gì?",
+      "answers": [
+        "Hiển thị âm thanh",
+        "Hiển thị video",
+        "Chạy javascript",
+        "Hiển thị hình ảnh"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 26,
+      "topicId": 2,
+      "questions": "CSS3 hỗ trợ thẻ nào mới?",
+      "answers": [
+        "<header>",
+        "<footer>",
+        "<article>",
+        "<main>"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 27,
+      "topicId": 2,
+      "questions": "Thuộc tính CSS nào được sử dụng để thay đổi màu nền?",
+      "answers": [
+        "background-color",
+        "color",
+        "font-size",
+        "text-align"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 28,
+      "topicId": 2,
+      "questions": "Cú pháp để tạo bóng đổ trong CSS3 là gì?",
+      "answers": [
+        "box-shadow",
+        "shadow-box",
+        "border-shadow",
+        "text-shadow"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 29,
+      "topicId": 2,
+      "questions": "Thuộc tính nào dùng để thay đổi độ trong suốt của phần tử?",
+      "answers": [
+        "opacity",
+        "visibility",
+        "display",
+        "position"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 30,
+      "topicId": 2,
+      "questions": "Để tạo hiệu ứng chuyển động (animation) trong CSS3, bạn sử dụng thuộc tính nào?",
+      "answers": [
+        "@keyframes",
+        "animation",
+        "transition",
+        "transform"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 31,
+      "topicId": 2,
+      "questions": "Thuộc tính CSS3 nào cho phép tạo các góc bo tròn cho phần tử?",
+      "answers": [
+        "border-radius",
+        "corner-radius",
+        "border-size",
+        "padding-radius"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 32,
+      "topicId": 2,
+      "questions": "Thuộc tính nào trong CSS3 được sử dụng để thay đổi kiểu chữ?",
+      "answers": [
+        "font-family",
+        "font-size",
+        "text-decoration",
+        "text-align"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 33,
+      "topicId": 2,
+      "questions": "CSS3 cho phép tạo hiệu ứng chuyển tiếp (transition) giữa các thuộc tính, thuộc tính nào có thể được chuyển tiếp?",
+      "answers": [
+        "color",
+        "background-color",
+        "width",
+        "Tất cả các thuộc tính trên"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 34,
+      "topicId": 2,
+      "questions": "CSS3 hỗ trợ tính năng Flexbox không?",
+      "answers": [
+        "Có",
+        "Không",
+        "Chỉ hỗ trợ trong Chrome",
+        "Chỉ hỗ trợ trong Firefox"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 35,
+      "topicId": 2,
+      "questions": "Thuộc tính nào được dùng để căn giữa văn bản trong CSS3?",
+      "answers": [
+        "text-align",
+        "vertical-align",
+        "justify-content",
+        "margin"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 36,
+      "topicId": 2,
+      "questions": "Thuộc tính nào trong CSS3 giúp tạo gradient (chuyển màu)?",
+      "answers": [
+        "background-image",
+        "background-color",
+        "gradient",
+        "linear-gradient"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 37,
+      "topicId": 2,
+      "questions": "CSS3 có hỗ trợ animation cho các thuộc tính nào?",
+      "answers": [
+        "background",
+        "width",
+        "color",
+        "Tất cả các thuộc tính trên"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 38,
+      "topicId": 2,
+      "questions": "Thuộc tính nào trong CSS3 giúp tạo hình tròn từ một phần tử vuông?",
+      "answers": [
+        "border-radius",
+        "circle-radius",
+        "round-radius",
+        "corner-radius"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 39,
+      "topicId": 2,
+      "questions": "Cú pháp CSS3 để tạo hiệu ứng chữ nổi (text-shadow) là gì?",
+      "answers": [
+        "text-shadow: 2px 2px 5px grey;",
+        "shadow: 2px 2px;",
+        "box-shadow: 2px 2px;",
+        "text-effect: 2px 2px;"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 40,
+      "topicId": 2,
+      "questions": "Thuộc tính CSS nào dùng để điều chỉnh khoảng cách giữa các từ trong văn bản?",
+      "answers": [
+        "letter-spacing",
+        "word-spacing",
+        "text-indent",
+        "line-height"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 41,
+      "topicId": 2,
+      "questions": "Thuộc tính nào được sử dụng để điều chỉnh khoảng cách giữa các dòng trong văn bản?",
+      "answers": [
+        "line-height",
+        "letter-spacing",
+        "word-spacing",
+        "text-align"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 42,
+      "topicId": 2,
+      "questions": "CSS3 hỗ trợ thuộc tính nào cho phép tạo các đường viền ngoài phần tử?",
+      "answers": [
+        "border",
+        "outline",
+        "margin",
+        "padding"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 43,
+      "topicId": 2,
+      "questions": "Thuộc tính CSS nào dùng để thay đổi khoảng cách giữa các phần tử con trong một container?",
+      "answers": [
+        "gap",
+        "padding",
+        "margin",
+        "spacing"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 44,
+      "topicId": 2,
+      "questions": "CSS3 cho phép tạo các chuyển động quay (rotate), thuộc tính nào được dùng?",
+      "answers": [
+        "transform",
+        "rotate",
+        "position",
+        "transition"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 45,
+      "topicId": 2,
+      "questions": "Thuộc tính nào được dùng để tạo các phần tử dạng thanh (slider) trong CSS3?",
+      "answers": [
+        "range",
+        "input[type='range']",
+        "slider",
+        "input[type='slider']"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 46,
+      "topicId": 2,
+      "questions": "CSS3 có hỗ trợ hình ảnh động không?",
+      "answers": [
+        "Có",
+        "Không",
+        "Chỉ qua JavaScript",
+        "Tùy vào trình duyệt"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 47,
+      "topicId": 2,
+      "questions": "Thuộc tính nào giúp thay đổi vị trí của phần tử trong CSS3?",
+      "answers": [
+        "position",
+        "float",
+        "display",
+        "align"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 48,
+      "topicId": 2,
+      "questions": "Thuộc tính CSS nào giúp tạo các đường viền bo tròn cho hình ảnh?",
+      "answers": [
+        "border-radius",
+        "corner-radius",
+        "rounded-border",
+        "border-size"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 49,
+      "topicId": 2,
+      "questions": "Câu nào sau đây không phải thuộc tính của CSS3?",
+      "answers": [
+        "-webkit-transition",
+        "transform",
+        "box-shadow",
+        "font-size"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 50,
+      "topicId": 2,
+      "questions": "Thuộc tính nào trong CSS3 dùng để điều chỉnh độ mờ của hình ảnh?",
+      "answers": [
+        "opacity",
+        "visibility",
+        "display",
+        "background"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 51,
+      "topicId": 3,
+      "questions": "JavaScript là gì?",
+      "answers": [
+        "Ngôn ngữ lập trình",
+        "Trình biên dịch",
+        "Phần mềm quản lý cơ sở dữ liệu",
+        "Tất cả các câu trên"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 52,
+      "topicId": 3,
+      "questions": "Biến trong JavaScript có thể được khai báo bằng từ khóa nào?",
+      "answers": [
+        "var",
+        "let",
+        "const",
+        "Tất cả các từ trên"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 53,
+      "topicId": 3,
+      "questions": "JavaScript hỗ trợ kiểu dữ liệu nào?",
+      "answers": [
+        "String",
+        "Number",
+        "Boolean",
+        "Tất cả các kiểu trên"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 54,
+      "topicId": 3,
+      "questions": "Toán tử nào trong JavaScript dùng để gán giá trị cho biến?",
+      "answers": [
+        "=",
+        "+",
+        "-",
+        "*",
+        "=="
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 55,
+      "topicId": 3,
+      "questions": "JavaScript là ngôn ngữ lập trình chạy ở đâu?",
+      "answers": [
+        "Trình duyệt web",
+        "Máy chủ",
+        "Ứng dụng di động",
+        "Cả ba đều đúng"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 56,
+      "topicId": 3,
+      "questions": "Hàm nào dùng để hiển thị thông báo trong JavaScript?",
+      "answers": [
+        "alert()",
+        "show()",
+        "message()",
+        "log()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 57,
+      "topicId": 3,
+      "questions": "Dấu ba chấm (...) trong JavaScript có tác dụng gì?",
+      "answers": [
+        "Spread operator",
+        "Rest operator",
+        "Cả hai đều đúng",
+        "Không có tác dụng gì"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 58,
+      "topicId": 3,
+      "questions": "Phương thức nào trong JavaScript dùng để kết nối hai chuỗi?",
+      "answers": [
+        ".concat()",
+        ".join()",
+        ".merge()",
+        ".append()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 59,
+      "topicId": 3,
+      "questions": "JavaScript có hỗ trợ khái niệm 'closure' không?",
+      "answers": [
+        "Có",
+        "Không",
+        "Chỉ trong ES6",
+        "Chỉ trong Node.js"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 60,
+      "topicId": 3,
+      "questions": "Câu lệnh nào dùng để kiểm tra kiểu dữ liệu của một biến trong JavaScript?",
+      "answers": [
+        "typeof",
+        "instanceof",
+        "checktype",
+        "datatype"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 61,
+      "topicId": 3,
+      "questions": "Toán tử nào trong JavaScript dùng để so sánh hai giá trị mà không cần quan tâm đến kiểu dữ liệu?",
+      "answers": [
+        "==",
+        "===",
+        "=",
+        "!="
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 62,
+      "topicId": 3,
+      "questions": "Hàm nào trong JavaScript dùng để chuyển chuỗi thành số?",
+      "answers": [
+        "parseInt()",
+        "toNumber()",
+        "convertToNumber()",
+        "parseFloat()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 63,
+      "topicId": 3,
+      "questions": "JavaScript có hỗ trợ class không?",
+      "answers": [
+        "Có",
+        "Không",
+        "Chỉ trong ES6",
+        "Chỉ trong Node.js"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 64,
+      "topicId": 3,
+      "questions": "Phương thức nào trong JavaScript dùng để tạo một mảng mới từ một chuỗi?",
+      "answers": [
+        ".split()",
+        ".slice()",
+        ".map()",
+        ".join()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 65,
+      "topicId": 3,
+      "questions": "Câu lệnh nào dùng để tạo một đối tượng trong JavaScript?",
+      "answers": [
+        "{} (dấu ngoặc nhọn)",
+        "[] (dấu ngoặc vuông)",
+        "() (dấu ngoặc tròn)",
+        "None of the above"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 66,
+      "topicId": 3,
+      "questions": "JavaScript hỗ trợ phương thức nào để kiểm tra xem một giá trị có phải là mảng?",
+      "answers": [
+        "Array.isArray()",
+        "isArray()",
+        "typeof()",
+        "instanceof Array"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 67,
+      "topicId": 3,
+      "questions": "Trong JavaScript, toán tử nào có mức ưu tiên cao nhất?",
+      "answers": [
+        "!",
+        "()",
+        "+",
+        "="
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 68,
+      "topicId": 3,
+      "questions": "Cách khai báo một hàm trong JavaScript là gì?",
+      "answers": [
+        "function name() {}",
+        "def name() {}",
+        "func name() {}",
+        "void name() {}"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 69,
+      "topicId": 3,
+      "questions": "JavaScript có hỗ trợ cú pháp 'arrow function' không?",
+      "answers": [
+        "Có",
+        "Không",
+        "Chỉ trong ES6",
+        "Chỉ trong Node.js"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 70,
+      "topicId": 3,
+      "questions": "Câu lệnh nào dùng để dừng vòng lặp trong JavaScript?",
+      "answers": [
+        "break",
+        "continue",
+        "stop",
+        "exit"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 71,
+      "topicId": 3,
+      "questions": "Để sử dụng phương thức 'localStorage' trong JavaScript, ta cần sử dụng gì?",
+      "answers": [
+        "window.localStorage",
+        "localStorage",
+        "document.localStorage",
+        "storage.localStorage"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 72,
+      "topicId": 3,
+      "questions": "JavaScript có hỗ trợ xử lý bất đồng bộ không?",
+      "answers": [
+        "Có",
+        "Không",
+        "Chỉ trong Node.js",
+        "Chỉ với Promises"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 73,
+      "topicId": 3,
+      "questions": "Phương thức nào trong JavaScript được sử dụng để lấy phần tử theo id?",
+      "answers": [
+        "document.getElementById()",
+        "document.getElementByClass()",
+        "document.querySelector()",
+        "document.getElement()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 74,
+      "topicId": 3,
+      "questions": "Phương thức nào trong JavaScript được sử dụng để tạo đối tượng mới từ một constructor?",
+      "answers": [
+        "new",
+        "create",
+        "Object.create()",
+        "init"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 75,
+      "topicId": 3,
+      "questions": "JavaScript có hỗ trợ sự kiện 'onload' không?",
+      "answers": [
+        "Có",
+        "Không",
+        "Chỉ trong jQuery",
+        "Chỉ trong các trình duyệt cũ"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 76,
+      "topicId": 4,
+      "questions": "ReactJS là gì?",
+      "answers": [
+        "Một thư viện JavaScript",
+        "Một framework JavaScript",
+        "Một ngôn ngữ lập trình",
+        "Một công cụ quản lý cơ sở dữ liệu"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 77,
+      "topicId": 4,
+      "questions": "ReactJS chủ yếu được dùng để phát triển phần nào trong ứng dụng?",
+      "answers": [
+        "Giao diện người dùng",
+        "Xử lý dữ liệu",
+        "Quản lý cơ sở dữ liệu",
+        "Quản lý máy chủ"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 78,
+      "topicId": 4,
+      "questions": "JSX trong ReactJS là gì?",
+      "answers": [
+        "Cú pháp để viết HTML trong JavaScript",
+        "Một loại framework của React",
+        "Thư viện giúp xây dựng giao diện",
+        "Một công cụ kiểm thử ứng dụng"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 79,
+      "topicId": 4,
+      "questions": "Hàm nào trong ReactJS được sử dụng để hiển thị giao diện?",
+      "answers": [
+        "render()",
+        "display()",
+        "show()",
+        "view()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 80,
+      "topicId": 4,
+      "questions": "Component trong ReactJS là gì?",
+      "answers": [
+        "Một phần tử giao diện độc lập",
+        "Một file JavaScript",
+        "Một thư viện",
+        "Một kiểu dữ liệu"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 81,
+      "topicId": 4,
+      "questions": "ReactJS sử dụng phương thức nào để cập nhật giao diện khi dữ liệu thay đổi?",
+      "answers": [
+        "setState()",
+        "updateState()",
+        "refresh()",
+        "render()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 82,
+      "topicId": 4,
+      "questions": "ReactJS có hỗ trợ việc sử dụng props không?",
+      "answers": [
+        "Có",
+        "Không",
+        "Chỉ trong class components",
+        "Chỉ trong function components"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 83,
+      "topicId": 4,
+      "questions": "State trong ReactJS là gì?",
+      "answers": [
+        "Dữ liệu thay đổi trong ứng dụng",
+        "Các thuộc tính của props",
+        "Cấu trúc giao diện",
+        "Cách thức React hiển thị dữ liệu"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 84,
+      "topicId": 4,
+      "questions": "Hàm component trong ReactJS nhận các tham số nào?",
+      "answers": [
+        "props",
+        "state",
+        "this",
+        "Tất cả các tham số trên"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 85,
+      "topicId": 4,
+      "questions": "Cách khai báo một component trong ReactJS bằng function là gì?",
+      "answers": [
+        "function MyComponent() {}",
+        "class MyComponent() {}",
+        "React.createComponent()",
+        "function() MyComponent{}"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 86,
+      "topicId": 4,
+      "questions": "React Router được sử dụng để làm gì?",
+      "answers": [
+        "Quản lý điều hướng trong ứng dụng React",
+        "Xử lý sự kiện trong React",
+        "Tạo các component động",
+        "Tối ưu hóa hiệu suất React"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 87,
+      "topicId": 4,
+      "questions": "ReactJS có hỗ trợ hooks không?",
+      "answers": [
+        "Có",
+        "Không",
+        "Chỉ trong class components",
+        "Chỉ trong version mới"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 88,
+      "topicId": 4,
+      "questions": "Hàm nào trong ReactJS giúp thay đổi dữ liệu trong state?",
+      "answers": [
+        "setState()",
+        "updateState()",
+        "changeState()",
+        "alterState()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 89,
+      "topicId": 4,
+      "questions": "Lệnh nào trong ReactJS dùng để render component?",
+      "answers": [
+        "ReactDOM.render()",
+        "renderComponent()",
+        "display()",
+        "show()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 90,
+      "topicId": 4,
+      "questions": "ReactJS sử dụng kỹ thuật nào để tối ưu hóa hiệu suất render?",
+      "answers": [
+        "Virtual DOM",
+        "Real DOM",
+        "Shadow DOM",
+        "Web Workers"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 91,
+      "topicId": 4,
+      "questions": "Trong React, props là gì?",
+      "answers": [
+        "Tham số được truyền vào từ component cha",
+        "Dữ liệu thay đổi của component",
+        "Phương thức để thay đổi state",
+        "Một thuộc tính đặc biệt của function components"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 92,
+      "topicId": 4,
+      "questions": "Một component trong React có thể được gọi là class hay function?",
+      "answers": [
+        "Có",
+        "Không",
+        "Chỉ function",
+        "Chỉ class"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 93,
+      "topicId": 4,
+      "questions": "Hàm useState trong ReactJS được sử dụng để làm gì?",
+      "answers": [
+        "Quản lý state trong function components",
+        "Quản lý props",
+        "Quản lý lifecycle",
+        "Cập nhật DOM"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 94,
+      "topicId": 4,
+      "questions": "Lifecycle methods trong ReactJS là gì?",
+      "answers": [
+        "Phương thức được gọi theo chu kỳ sống của component",
+        "Một loại event",
+        "Các hàm điều hướng",
+        "Một loại hook"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 95,
+      "topicId": 4,
+      "questions": "Hàm useEffect trong ReactJS có tác dụng gì?",
+      "answers": [
+        "Thực thi mã sau khi render",
+        "Cập nhật state",
+        "Chuyển hướng trang",
+        "Thay đổi props"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 96,
+      "topicId": 4,
+      "questions": "Có thể sử dụng ReactJS mà không cần một server không?",
+      "answers": [
+        "Có",
+        "Không",
+        "Chỉ khi sử dụng API",
+        "Chỉ khi không cần lưu trữ dữ liệu"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 97,
+      "topicId": 4,
+      "questions": "Component trong ReactJS có thể trả về nhiều phần tử không?",
+      "answers": [
+        "Có, nhưng phải bọc trong một element chung",
+        "Không, chỉ trả về một phần tử duy nhất",
+        "Có, không cần bọc",
+        "Chỉ khi dùng hooks"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 98,
+      "topicId": 4,
+      "questions": "ReactJS có hỗ trợ các biểu thức điều kiện (conditional rendering) không?",
+      "answers": [
+        "Có",
+        "Không",
+        "Chỉ khi sử dụng Redux",
+        "Chỉ trong class components"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 99,
+      "topicId": 4,
+      "questions": "Sự kiện nào trong ReactJS được gọi khi một phần tử được nhấn?",
+      "answers": [
+        "onClick",
+        "onMouseOver",
+        "onChange",
+        "onSubmit"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 100,
+      "topicId": 4,
+      "questions": "ReactJS được phát triển bởi ai?",
+      "answers": [
+        "Facebook",
+        "Google",
+        "Microsoft",
+        "Twitter"
+      ],
+      "correctAnswer": 0
+    }
+  ],
+  "answers": [
+    {
+      "userId": 9,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 26,
+          "answer": 2
+        },
+        {
+          "questionId": 27,
+          "answer": 0
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userId": 9,
+      "topicId": 2,
+      "answers": [],
+      "id": 2
+    },
+    {
+      "userId": 9,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 26,
+          "answer": 1
+        },
+        {
+          "questionId": 27,
+          "answer": 0
+        },
+        {
+          "questionId": 28,
+          "answer": 2
+        },
+        {
+          "questionId": 29,
+          "answer": 2
+        }
+      ],
+      "id": 3
+    },
+    {
+      "userId": 9,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 26,
+          "answer": 0
+        },
+        {
+          "questionId": 27,
+          "answer": 1
+        },
+        {
+          "questionId": 28,
+          "answer": 1
+        },
+        {
+          "questionId": 29,
+          "answer": 2
+        },
+        {
+          "questionId": 30,
+          "answer": 2
+        },
+        {
+          "questionId": 31,
+          "answer": 3
+        },
+        {
+          "questionId": 32,
+          "answer": 3
+        },
+        {
+          "questionId": 33,
+          "answer": 3
+        },
+        {
+          "questionId": 34,
+          "answer": 3
+        },
+        {
+          "questionId": 35,
+          "answer": 3
+        },
+        {
+          "questionId": 36,
+          "answer": 2
+        },
+        {
+          "questionId": 37,
+          "answer": 1
+        },
+        {
+          "questionId": 38,
+          "answer": 3
+        },
+        {
+          "questionId": 39,
+          "answer": 2
+        },
+        {
+          "questionId": 40,
+          "answer": 0
+        },
+        {
+          "questionId": 41,
+          "answer": 0
+        },
+        {
+          "questionId": 42,
+          "answer": 3
+        },
+        {
+          "questionId": 43,
+          "answer": 1
+        },
+        {
+          "questionId": 44,
+          "answer": 0
+        },
+        {
+          "questionId": 45,
+          "answer": 3
+        },
+        {
+          "questionId": 46,
+          "answer": 1
+        },
+        {
+          "questionId": 47,
+          "answer": 0
+        },
+        {
+          "questionId": 48,
+          "answer": 1
+        },
+        {
+          "questionId": 49,
+          "answer": 0
+        },
+        {
+          "questionId": 50,
+          "answer": 0
+        }
+      ],
+      "id": 4
+    },
+    {
+      "userId": 9,
+      "topicId": 3,
+      "answers": [],
+      "id": 5
+    },
+    {
+      "userId": 9,
+      "topicId": 4,
+      "answers": [],
+      "id": 6
+    }
+  ]
+}
