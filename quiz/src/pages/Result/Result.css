@@ -1,0 +1,20 @@
+.result--true {
+  background : green;
+  color      : #fff;
+  margin-left: 10px;
+}
+
+.result--false {
+  background : red;
+  color      : #fff;
+  margin-left: 10px;
+}
+
+.result__item--selected {
+  color: red;
+}
+
+.result__item--result {
+  color      : green;
+  font-weight: 500;
+}

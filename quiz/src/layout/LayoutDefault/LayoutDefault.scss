@@ -1,0 +1,28 @@
+.layout-default {
+  &__header {
+    display: flex;
+    background: orange;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    .menu ul {
+      display: flex;
+      li {
+        list-style-type: none;
+        margin-right: 20px;
+      }
+    }
+  }
+  &__main {
+    padding: 20px;
+  }
+  &__footer {
+    background: #ddd;
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+  }
+}
